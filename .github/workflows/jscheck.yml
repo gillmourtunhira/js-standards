@@ -1,7 +1,7 @@
 name: check-js
 on: [push]
 jobs:
-  check js:
+  check-js
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
