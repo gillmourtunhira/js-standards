@@ -9,5 +9,5 @@ jobs:
         with:
           node-version: '14'
       - run: npm install standard
-      - run: npm standard --fix
+      - run: standard --fix
       - run: npm test
