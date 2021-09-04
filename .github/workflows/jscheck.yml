@@ -1,5 +1,12 @@
 name: check-js
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - 'task-ui'
+  pull_request:
+    branches:
+      - master
 jobs:
   check-js:
     runs-on: ubuntu-latest
